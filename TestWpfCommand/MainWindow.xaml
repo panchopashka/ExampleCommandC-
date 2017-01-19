@@ -1,0 +1,50 @@
+﻿<Window
+    x:Class="TestWpfCommand.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TestWpfCommand"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="525"
+    Height="350"
+    mc:Ignorable="d">
+    <Window.CommandBindings>
+
+        <CommandBinding
+            CanExecute="CommandBinding_CanExecute"
+            Command="local:MainWindow.CleanCommand"
+            Executed="CommandBinding_Executed" />
+    </Window.CommandBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="File">
+                <MenuItem Command="New" Header="New" />
+                <MenuItem Command="Open" Header="Open" />
+                <MenuItem Command="Save" Header="Save" />
+                <Separator />
+                <MenuItem Command="Close" Header="Exit" />
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Command="Cut" Header="Cut" />
+                <MenuItem Command="Copy" Header="Copy" />
+                <MenuItem Command="Paste" Header="Paste" />
+                <Separator />
+                <MenuItem Command="local:MainWindow.CleanCommand" Header="Очистить поле" />
+            </MenuItem>
+        </Menu>
+
+        <TextBox
+            Name="Text"
+            Grid.Row="1"
+            AcceptsReturn="True"
+            TextChanged="Text_TextChanged"
+            TextWrapping="Wrap" />
+    </Grid>
+</Window>

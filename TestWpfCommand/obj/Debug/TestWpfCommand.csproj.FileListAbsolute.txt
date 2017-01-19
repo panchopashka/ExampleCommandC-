@@ -1,0 +1,14 @@
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\bin\Debug\TestWpfCommand.exe.config
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\bin\Debug\TestWpfCommand.exe
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\bin\Debug\TestWpfCommand.pdb
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\MainWindow.g.cs
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\App.g.cs
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand_MarkupCompile.cache
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand_MarkupCompile.lref
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\MainWindow.baml
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.g.resources
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.Properties.Resources.resources
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.csproj.GenerateResource.Cache
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.exe
+c:\users\pasha\documents\visual studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.pdb
+C:\Users\pasha\Documents\Visual Studio 2015\Projects\TestWpfCommand\TestWpfCommand\obj\Debug\TestWpfCommand.csprojResolveAssemblyReference.cache
